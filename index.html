@@ -162,11 +162,11 @@ footer{text-align:center;padding:40px 0;color:var(--mute);font-size:13px}
 </div>
 
 <script>
-// CTA → Telegram-канал MBGA. UTM сохраняется для аналитики кликов.
+// CTA → личка Андрея. UTM сохраняется для аналитики кликов.
 (function(){
   var p = new URLSearchParams(location.search);
   var content = p.get('utm_content') || 'organic';
-  var dest = 'https://t.me/mbga_andrey';
+  var dest = 'https://t.me/andrey_andreev';
   document.querySelectorAll('.cta').forEach(function(a){
     a.href = dest;
     a.addEventListener('click', function(){
